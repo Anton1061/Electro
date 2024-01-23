@@ -1,4 +1,4 @@
-package electro;
+package Electro;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,8 +7,8 @@ public class ListenerButton implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		String exitHat="Выйти??";
-		String exitLow="Завершение работы пррограммы";
+		String exitHat="Р’С‹С…РѕРґ";
+		String exitLow="РЎС‚СЂР°С…РѕРІРѕР№ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ. РћРЎРђР“Рћ";
 		new Exit(exitHat, exitLow);
 
 	}

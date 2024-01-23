@@ -1,4 +1,4 @@
-package electro;
+package Electro;
 
 import javax.swing.JOptionPane;
 

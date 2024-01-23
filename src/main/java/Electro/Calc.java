@@ -1,16 +1,12 @@
-/*
- * 
- */
-package electro;
-
+package Electro;
 // TODO: Auto-generated Javadoc
 /**
  * The Class Calc.
  */
 public abstract class Calc {
 	
-	/** The base tarif. */
-	private double baseTarif=3.5;
+	/** The base Tarif. */
+	private double baseTarif=7400;
 	
 	/**
 	 * Mul.
@@ -20,7 +16,7 @@ public abstract class Calc {
 	 * @return the double
 	 */
 	public double mul(double indications, double sum) {
-		sum+=baseTarif*indications;
+		sum=baseTarif*indications*1.64*2.32;
 		return sum;
 	}
 	
